@@ -1,0 +1,5 @@
+Dealing with overfitting
+Regularization - adjust values of parameters theta
+
+Regularization 1: penalize thetas:
+	For example, add 1000theta3^2 to the cost function

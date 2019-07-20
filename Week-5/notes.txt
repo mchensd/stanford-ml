@@ -1,0 +1,12 @@
+L = total # of layers in network
+sl = # of units in layer l
+
+k = sL = units in output layer
+
+
+BackPropagation
+
+How to design neural network:
+	1 hidden layer, if >1, same # of units per layer
+		more hidden units is better but more expensive
+	

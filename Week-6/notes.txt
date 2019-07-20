@@ -1,0 +1,7 @@
+Plot Jtrain and Jcv as a function of lambda, d to find sweet spot
+
+Learning curve — help check if algorithm working properly
+	Plot Jcv and Jtrain as function of m
+		high bias: more training data does not help much
+	 	variance: more training data helps
+	

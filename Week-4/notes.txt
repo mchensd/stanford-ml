@@ -1,0 +1,24 @@
+Neuron model:
+	“dendrites” - feed input such as x1 . . . xn
+	“axon” - output, computation such as h(x)
+
+	input layer -> hidden layer -> output layer
+	
+	transition from input -> hidden: linear combination of input layer to get jth unit in hidden layer
+	
+	Thetaj: matrix for mapping from layer j to layer j+1, ith row are weights for calculating ith node int j+1th layer
+
+	
+	Forward Propagation: Vectorized implementation
+		z(2) = theta(1)a(1)
+		a(2) = g(z(2))
+	
+		z(3) = theta(2)a(2)
+		h(x) = a(3) = g(z(3))
+
+
+Application:
+	boolean logic - 
+
+Multi class
+	h(x) is now in Rn, n is number of classes
